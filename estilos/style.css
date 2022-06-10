@@ -1,0 +1,128 @@
+/*
+
+*{
+    margin: 00px;
+    padding: 0px;
+}
+
+body{
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: rgb(238, 238, 238);
+    position: sticky;
+    margin: 10px 10px 50px 10px;
+    padding: 10px;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 50px;
+    list-style: none;
+}
+
+
+*/
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    border: 2px dashed black;
+    margin: 20px 200px 50px 200px;
+
+}
+/*
+header ul li:hover{
+    transform: scale(3);
+    transition: all 2s;
+}
+
+.titulo1:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+
+.logo{ 
+    display: block;
+    margin: auto;
+    height: 300px;
+}
+
+.logo:hover{
+    animation: messi 2s;
+}
+
+@keyframes messi{
+    0%{
+        transform: translatex(300px)  
+    }
+    25%{
+        transform: translatex(-300px)
+    }
+    50%{
+        transform: scale(2);
+    }
+    75%{
+        transform: rotate(360deg);
+    };
+}
+
+.soporte{
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+.empresas{
+    height: 400px;
+    margin: 50px;
+}
+
+.info{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.hymImage{
+    height: 400px;
+    display: block;
+    margin: auto;
+    padding: 50px;
+}
+
+#primerP{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    color: red;
+}
+
+.historia{
+    margin: 10px;
+}
+
+.remera {
+    margin: 10px 50px;
+}
+
+.pantalon{
+    margin: 10px 50px;
+}
+
+.contacto{
+    text-align: center;
+}
+
+*/
+
+footer a{
+    margin: 5px;
+}
+
+
+/*
+
+*/ 
