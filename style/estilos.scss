@@ -1,0 +1,44 @@
+@import "variables";
+@import "generales";
+@import "animaciones";
+
+.remeras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pantalones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.historia{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.soporte{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
