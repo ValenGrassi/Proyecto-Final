@@ -61,6 +61,42 @@ header ul li:hover {
   transition: all 1s;
 }
 
+.remera:hover div {
+  -webkit-animation: animacion 1s;
+          animation: animacion 1s;
+  visibility: visible;
+}
+
+@-webkit-keyframes animacion {
+  0% {
+    color: #b6b6b6;
+  }
+  25% {
+    color: #7e7e7e;
+  }
+  50% {
+    color: #4b4b4b;
+  }
+  75% {
+    color: black;
+  }
+}
+
+@keyframes animacion {
+  0% {
+    color: #b6b6b6;
+  }
+  25% {
+    color: #7e7e7e;
+  }
+  50% {
+    color: #4b4b4b;
+  }
+  75% {
+    color: black;
+  }
+}
+
 .pantalon {
   margin: 10px 50px;
   height: 600px;
@@ -72,6 +108,12 @@ header ul li:hover {
           transform: scale(1.2);
   -webkit-transition: all 1s;
   transition: all 1s;
+}
+
+.pantalon:hover div {
+  -webkit-animation: animacion 1s;
+          animation: animacion 1s;
+  visibility: visible;
 }
 
 .remeras {
@@ -132,5 +174,13 @@ header ul li:hover {
 .soporte {
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
+}
+
+.piedepagina {
+  position: absolute;
+  top: 93%;
+  left: 4%;
+  visibility: hidden;
+  color: black;
 }
 /*# sourceMappingURL=estilos.css.map */

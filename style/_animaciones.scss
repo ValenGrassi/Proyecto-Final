@@ -22,7 +22,26 @@ header{
         &:hover{
             transform: scale(1.2);
             transition: all 1s;
+                div{animation: animacion 1s;
+                visibility: visible;
+                }
         }
+}
+
+@keyframes animacion{
+    0%{
+        color: rgb(182, 182, 182);
+    }
+    25%{
+        color: rgb(126, 126, 126)
+    }
+    50%{
+        color: rgb(75, 75, 75);
+    }
+    75%{
+        color: black;
+    }
+    
 }
 
 .pantalon{
@@ -32,5 +51,8 @@ header{
         &:hover{
             transform: scale(1.2);
             transition: all 1s;
+                div{animation: animacion 1s;
+                visibility: visible;
+                }
         }
 }
