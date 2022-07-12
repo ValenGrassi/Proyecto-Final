@@ -1,5 +1,9 @@
 header{
     background-color: $gris;
+        ul li{
+            font-size: 14px;
+            margin: 0px 15px;
+        }
         ul li:hover{
             transform: scale(1.2);
             transition: all 1s;
@@ -10,7 +14,7 @@ header{
     width: 50vw;
     margin: 50px;
         &:hover{
-            transform: scale(1.2);
+            transform: scale(1.05);
             transition: all 1s;
         }
 }
